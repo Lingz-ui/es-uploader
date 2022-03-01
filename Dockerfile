@@ -16,5 +16,5 @@ ENV PM2_PUBLIC_KEY r5nhytflswo1ly3
 ENV PM2_SECRET_KEY cygkc3bz1dww20f
 
 COPY . .
-CMD ["npm", "start"]`
+CMD ["node", "app.js"]`
 EXPOSE 8000
